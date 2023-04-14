@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio - To showcase my skills in development"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>   
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/favicon.ico">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <title>Unleashing the power of creativity: My Portfolio</title>
+  </head>
+
+  <body>
+    <header class="main-header">
+      <div class="main-header__logo-container">
+        <div class="main-header__logo-img-cont">
+          <img
+            src="images/christabel.jpeg"
+            alt="logo Image"
+            class="main-header__logo-img"
+          />
+          
+        </div>
+        <div class="nav-logo">
+          <a href="#">Christabel Okwisa</a>
+        </div>
+        <!-- <h4 class="main-header__logo-text"></Christabel Okwisa /></h4> -->
+      </div>
+      <nav class="main-header__navigation">
+
+
+
+        <ul class="main-header__navigation-links">
+          <li class="main-header__navigation-link">
+            <a href="./index.html"> Home </a>
+          </li>
+          <li class="main-header__navigation-link">
+            <a href="about.html"> About </a>
+          </li>
+          <li class="main-header__navigation-link">
+            <a href="./index.html#skills"> Skills</a>
+            </li>
+          </li>
+          <li class="main-header__navigation-link">
+            <a href="./index.html#projects"> Projects </a>
+          </li>
+          <li class="main-header__navigation-link">
+            <a href="contact.html" > Contact </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="main-header__sm-scr-nav-btn">
+        <div class="main-header__sm-scr-nav-btn-line"></div>
+        <div class="main-header__sm-scr-nav-btn-line"></div>
+      </div>
+      <div class="main-header__sm-menu">
+        <div class="main-header__sm-menu-close"></div>
+        <ul class="main-header__sm-menu-links">
+          <li>
+            <a href="./index.html"
+              class="main-header__sm-menu-link main-header__sm-menu-link--1"
+              name="home-hero"
+              >Home</a
+            >
+          </li>
+
+          <li>
+            <a href="about.html"
+              class="main-header__sm-menu-link main-header__sm-menu-link--2"
+              name="about"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              class="main-header__sm-menu-link main-header__sm-menu-link--3"
+              name="skills"
+              >Skills</a
+            >
+          </li>
+          <li>
+            <a
+              class="main-header__sm-menu-link main-header__sm-menu-link--4"
+              name="projects"
+              >Projects</a
+            >
+          </li>
+
+          <li>
+            <a href="contact.html"
+              class="main-header__sm-menu-link main-header__sm-menu-link--5"
+              name="contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+      <!-- <button class="btn btn-theme btn-sm">Download CV</button> -->
+    </header>
+
+    <div class="container">
+      <div class="content">
+        <div class="left-side">
+          <div class="address details">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="topic">Address</div>
+            <div class="text-one">Nairobi, Kenya</div>
+            <!-- <div class="text-two">Westlands Kangemi</div> -->
+          </div>
+          <div class="phone details">
+            <i class="fas fa-phone-alt"></i>
+            <div class="topic">Phone</div>
+            <div class="text-one">+254 7003 86414</div>
+            <div class="text-two">+254 7699 98924</div>
+          </div>
+          <div class="email details">
+            <i class="fas fa-envelope"></i>
+            <div class="topic">Email</div>
+            <div class="text-one">okwisachristabel@gmail.com</div>
+            <!-- <div class="text-two">info.codinglab@gmail.com</div> -->
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="topic-text">Send me a message</div>
+          <p>
+            I am a software developer with a passion for creating solutions to proble
+            ms using technology. I am a team player and I am always willing to learn new skills.
+            I am currently looking for a job as a software developer. If you have any opportunities,
+            <mark>hit me up!</mark>
+          </p>
+        <form name="contact" method="POST" action="https://formspree.io/f/mrgvoakl">
+          <div class="input-box">
+            <input type="text" placeholder="Enter your name"
+            name="name" required>
+          
+          </div>
+          <div class="input-box">
+            <input type="text" placeholder="Enter your email" name="email"
+            required>
+          </div>
+          <div class="input-box message-box"  aria-required="true" >
+            <textarea placeholder="Enter message" name="message" required></textarea>            
+          </div>
+          <div class="button">
+            <!-- <input type="submit" value="Send Now" ></button> -->
+            <button type="submit">Send Now</button>
+          </div>
+        </form>
+      </div>
+      </div>
+    </div>
+
+    <br>
+
+      <!-- Footer section -->
+  <footer class="main-footer">
+    <div class="main-footer__upper">
+      <div class="main-container">
+        <ul class="main-footer__links">
+          <li class="main-footer__link">
+            <a href="./index.html">Home</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="about.html">About</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#projects">Projects</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <div class="main-footer__mid-line"></div>
+        <div class="main-footer__socials">
+          <a  target="_blank" href="https://github.com/chrisokwisa" class="main-footer__social-link">
+            <img
+              src="./assets/icons8-github-48.png"
+              alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a  target="_blank" href="https://www.instagram.com/chris_okwisa/" class="main-footer__social-link">
+            <img src="./assets/icons8-instagram-48.png" alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a  target="_blank" href="https://medium.com/@okwisachristabel" class="main-footer__social-link">
+            <img src="./assets/icons8-medium-48.png" alt="" class="main-footer__social-link-icon" />
+          </a>
+          <!-- <a href="#" class="main-footer__social-link">
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/7f29579dde49e02480372aa49f7189c5536b0118/34b92/assets/png/linkedin-ico.png"
+              alt="" class="main-footer__social-link-icon" />
+          </a> -->
+          <a  target="_blank" href="https://www.linkedin.com/in/christabel-okwisa-10231723b/" class="main-footer__social-link">
+            <img src="./assets/icons8-linkedin-48.png" alt="" class="main-footer__social-link-icon" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="main-footer__bottom">
+      <div class="main-container">
+        <p class="main-footer__bottom-txt">
+          <!-- If you can give me some credits or shoutout here by linking to my website, then that will help me a lot :) -->
+          <a target="_blank" href="https://github.com/rammcodes/wowfolio">WowFolio</a> Open-Source Template
+
+
+          <script>document.write(new Date().getFullYear())</script>. Made by 👩🏿‍💻
+          Christabel Okwisa</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+     <script src="script.js"></script>
+
+  </body>
+</html>
