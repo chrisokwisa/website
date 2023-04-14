@@ -1,6 +1,3 @@
-// write a readme for this website
-
-// this is a comment
 
 # Portfolio website
 
@@ -13,7 +10,6 @@
 
 ``Bootstrap``
 
-``JQuery``
 
 ``Git``
 
@@ -28,8 +24,7 @@ Formspree was used to create the contact form [Formspree](https://formspree.io/)
 ## Acknowledgements
 I received inspiration for this project from [Wowfolio open-Source Template](https://github.com/rammcodes/wowfolio)
 
-## License
-This project is licensed under the [MIT License](LICENSE)
+
 
 ## Author
 Christabel Okwisa
